@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --primary-color: #5ddac9;
+  --text-primary-color: #260041;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.title {
+  font-size: 7em;
+  letter-spacing: 0.02em;
+  color: var(--text-primary-color);
+  width: 94%;
+  line-height: 1.3em;
+}
+
+.subtitle {
+  color: var(--text-primary-color);
+  font-size: 20px;
+  line-height: 1.8 em;
+  margin-top: 1vh;
+  letter-spacing: 1px;
+  text-align: justify;
+  width: 95%;
+}
+
+.button-container {
+  margin-top: 5vh;
+}
+
+.button-container > a {
+  display: grid;
+  background-color: white;
+  place-items: center;
+  color: var(--text-primary-color);
+  text-decoration: none;
+  font-size: 17px;
+  border: none;
+  color: solid black;
+  padding: 15px;
+  width: 30%;
+  border-radius: 30px;
+  margin-right: 5%;
+  font-weight: bolder;
+}

@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --primary-color: #5ddac9;
+  --text-primary-color: #260041;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.pd-container-hz {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/* header */
+.header-container {
+  display: flex;
+  padding: 3% 10% 1% 10%;
+  justify-content: space-between;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+.menu-container > div {
+  margin-right: 10%;
+  font-size: 1.1em;
+  margin-top: 2.5%;
+}
+
+.tebal {
+  font-weight: 900;
+}
+.menu-container {
+  display: flex;
+  width: 30%;
+  margin-right: 10%;
+}
+
+.bar-menu {
+  display: none;
+}
+/* header */
+
+/* jumbotron 1*/
+.jumbotron-1-container {
+  display: flex;
+  margin-top: 20vh;
+}
+.jumbotron-1-container > div:first-child {
+  width: 65%;
+}
+.jumbotron-1-container > div:last-child {
+  width: 35%;
+}
+.title {
+  font-size: 3.5em;
+  letter-spacing: 0.02em;
+  color: var(--text-primary-color);
+  width: 94%;
+  line-height: 1.3em;
+}
+
+.subtitle {
+  color: var(--text-primary-color);
+  font-size: 20px;
+  line-height: 1.8 em;
+  margin-top: 3vh;
+  letter-spacing: 1px;
+  text-align: justify;
+  width: 95%;
+}
+
+.button-container {
+  margin-top: 5vh;
+}
+
+.button-container > button {
+  background-color: var(--primary-color);
+  font-size: 15px;
+  border: none;
+  color: solid black;
+  padding: 17px;
+  width: 30%;
+  border-radius: 17px;
+  margin-right: 5%;
+  font-weight: bolder;
+}
+.image-container {
+  margin-top: -12%;
+}
+
+.image-container1 {
+  margin-top: 5%;
+  width: 70%;
+}
+.image-container1 > a {
+  padding: 2.5px;
+  margin-right: 3%;
+}
+
+/* gradient  */
+.gradient-container {
+  background: linear-gradient(180deg, #5ddac9 -100%, #4a99d300 75.85%), #ffffff;
+}
+/* gradient */
